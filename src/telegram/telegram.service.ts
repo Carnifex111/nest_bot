@@ -4,7 +4,7 @@ import { Telegraf } from 'telegraf';
 @Injectable()
 export class TelegramService implements OnModuleInit {
   private bot: Telegraf;
-  private readonly chatId = '-чат id';
+  private readonly chatId = '-группа';
 
   constructor() {
     this.bot = new Telegraf('токен');
